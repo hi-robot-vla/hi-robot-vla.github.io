@@ -326,7 +326,11 @@ div.method-name {
         max-width: 100%;
     }
     figure {
-        margin: 1em 5px;
+        margin: 0;
+        padding: 0;
+    }
+    figure .imgcaption {
+        margin-top: 0;
     }
     div#markdown-body code {
         font-size: 12px;

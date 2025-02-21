@@ -9,10 +9,12 @@ Can we get our robots to "think" the same way, with a little "voice" that tells 
 
 <br>
 
-<video width="100%" controls autoplay loop muted>
-    <source src="./video/blog_video1_compressed.mp4" type="video/mp4">
-</video>
-<figcaption class="imgcaption" style="margin-top: -10px;">An example of our System 2 model breaking up a complex user prompt into simpler steps, which are then fed to a System 1 model to perform the task.</figcaption>
+<figure style="margin: 0; padding: 0;">
+    <video width="100%" controls autoplay loop muted>
+        <source src="./video/blog_video1_compressed.mp4" type="video/mp4">
+    </video>
+    <figcaption class="imgcaption" style="margin-top: -10px;">An example of our System 2 model breaking up a complex user prompt into simpler steps, which are then fed to a System 1 model to perform the task.</figcaption>
+</figure>
 
 <br>
 
@@ -20,10 +22,12 @@ This high-level policy is itself a VLM, and it is trained to process complex pro
 
 <br>
 
-<video width="100%" controls autoplay loop muted>
-    <source src="./video/blog_video2_v2_ann.mp4" type="video/mp4">
-</video>
-<figcaption class="imgcaption" style="margin-top: -10px;">Hi Robot responds to real-time language instructions, inferring the user's intent and situating it in the current scene.</figcaption>
+<figure style="margin: 0; padding: 0;">
+    <video width="100%" controls autoplay loop muted>
+        <source src="./video/blog_video2_v2_ann.mp4" type="video/mp4">
+    </video>
+    <figcaption class="imgcaption" style="margin-top: -10px;">Hi Robot responds to real-time language instructions, inferring the user's intent and situating it in the current scene.</figcaption>
+</figure>
 
 <br>
 
@@ -41,21 +45,23 @@ Inspecting the internal "thoughts" of **Hi Robot** when presented with a complex
 
 <br>
 
-<div style="display: flex; gap: 20px; margin-bottom: 20px;">
-    <div style="flex: 1;">
-        <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
-        <video width="100%" controls autoplay loop muted>
-            <source src="./video/blog_post_video3_clean_everything_compressed.mp4" type="video/mp4">
-        </video>
+<figure style="margin: 0; padding: 0;">
+    <div style="display: flex; gap: 20px; margin-bottom: 20px;">
+        <div style="flex: 1;">
+            <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
+            <video width="100%" controls autoplay loop muted>
+                <source src="./video/blog_post_video3_clean_everything_compressed.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div style="flex: 1;">
+            <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
+            <video width="100%" controls autoplay loop muted>
+                <source src="./video/blog_post_video3_only_trash_ann.mp4" type="video/mp4">
+            </video>
+        </div>
     </div>
-    <div style="flex: 1;">
-        <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
-        <video width="100%" controls autoplay loop muted>
-            <source src="./video/blog_post_video3_only_trash_ann.mp4" type="video/mp4">
-        </video>
-    </div>
-</div>
-<figcaption class="imgcaption" style="margin-top: -10px;">Hi Robot follows a complex prompt that requires modifying the behavior of the base model, which is trained to bus the table by putting all trash in the garbage and all dishes in the bin.</figcaption>
+    <figcaption class="imgcaption" style="margin-top: 0;">Hi Robot follows a complex prompt that requires modifying the behavior of the base model, which is trained to bus the table by putting all trash in the garbage and all dishes in the bin.</figcaption>
+</figure>
 
 <br>
 
@@ -66,10 +72,12 @@ Interpreting a contextual comment from a user is a similar problem to interpreti
 
 <br>
 
-<video width="100%" controls autoplay loop muted>
+<figure style="margin: 0; padding: 0;">
+  <video width="100%" controls autoplay loop muted>
     <source src="./video/blog_video4_v2_ann.mp4" type="video/mp4">
-</video>
-<figcaption class="imgcaption" style="margin-top: -10px;">Hi Robot incorporates corrections and feedback from the user.</figcaption>
+  </video>
+  <figcaption class="imgcaption" style="margin-top: 0;">Hi Robot incorporates corrections and feedback from the user.</figcaption>
+</figure>
 
 <br>
 
@@ -78,3 +86,5 @@ Interpreting a contextual comment from a user is a similar problem to interpreti
 ### Where is this going?
 
 Intelligent and flexible robotic systems need to not only perform dexterous tasks, but also understand their environment and reason through complex, multi-stage problems. While on the surface, **Hi Robot** is focused on interaction with users through prompts and feedback, the goal of this system is to ultimately endow robots with the same kind of "inner voice" that you hear when you are solving a difficult problem like cooking that new recipe. Interaction with people provides us with the most vivid illustration of the importance of this capability, but its implications go much deeper: robots that can think through complex problems and bring to bear knowledge they learned from web-scale pre-training will be much more flexible, will exhibit significantly better common sense reasoning, and in the long run provide us with much more natural assistance in open-world settings. They will be able to understand what it means when someone writes "do not erase" on the whiteboard, figure out that a person should not be disturbed if they are sleeping, and realize that fragile objects should be handled with care. These are all inferences we make every day based not only on our physical experience, but on things we learned from other people. LLMs and VLMs provide us with a tremendously powerful tool to learn this kind of knowledge from the Internet, but connecting this knowledge to physical systems such as robots in a seamless way presents major technical challenges. We hope that **Hi Robot** will serve as an important step in this direction.
+
+<br>
