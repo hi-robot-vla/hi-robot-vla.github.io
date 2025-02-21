@@ -12,7 +12,7 @@ Can we get our robots to "think" the same way, with a little "voice" that tells 
 <video width="100%" controls autoplay loop muted>
     <source src="./video/blog_video1_compressed.mp4" type="video/mp4">
 </video>
-<figcaption class="imgcaption" style="margin-top: 0px;">An example of our System 2 model breaking up a complex user prompt into simpler steps, which are then fed to a System 1 model to perform the task.</figcaption>
+<figcaption class="imgcaption" style="margin-top: -10px;">An example of our System 2 model breaking up a complex user prompt into simpler steps, which are then fed to a System 1 model to perform the task.</figcaption>
 
 <br>
 
@@ -23,7 +23,7 @@ This high-level policy is itself a VLM, and it is trained to process complex pro
 <video width="100%" controls autoplay loop muted>
     <source src="./video/blog_video2_v2_ann.mp4" type="video/mp4">
 </video>
-<figcaption class="imgcaption" style="margin-top: 0px;">Hi Robot responds to real-time language instructions, inferring the user's intent and situating it in the current scene.</figcaption>
+<figcaption class="imgcaption" style="margin-top: -10px;">Hi Robot responds to real-time language instructions, inferring the user's intent and situating it in the current scene.</figcaption>
 
 <br>
 
@@ -55,7 +55,7 @@ Inspecting the internal "thoughts" of **Hi Robot** when presented with a complex
         </video>
     </div>
 </div>
-<figcaption class="imgcaption" style="margin-top: 0px;">Hi Robot follows a complex prompt that requires modifying the behavior of the base model, which is trained to bus the table by putting all trash in the garbage and all dishes in the bin.</figcaption>
+<figcaption class="imgcaption" style="margin-top: -10px;">Hi Robot follows a complex prompt that requires modifying the behavior of the base model, which is trained to bus the table by putting all trash in the garbage and all dishes in the bin.</figcaption>
 
 <br>
 
@@ -69,7 +69,7 @@ Interpreting a contextual comment from a user is a similar problem to interpreti
 <video width="100%" controls autoplay loop muted>
     <source src="./video/blog_video4_v2_ann.mp4" type="video/mp4">
 </video>
-<figcaption class="imgcaption" style="margin-top: 0px;">Hi Robot incorporates corrections and feedback from the user.</figcaption>
+<figcaption class="imgcaption" style="margin-top: -10px;">Hi Robot incorporates corrections and feedback from the user.</figcaption>
 
 <br>
 
