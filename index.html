@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>AWE</title>
+    <title>Hi Robot</title>
 
     <meta charset="UTF-8">
     <meta property="og:title" content="Hi Robot">
@@ -75,10 +75,6 @@
                         <ul class="horizontal-list">
                             <li><i class="far fa-user"></i> Anonymous Authors</li>
                         </ul>
-                        <!-- <ul class="horizontal-list">
-                            <li><i class="fas fa-university"></i> Stanford University</li>
-                            <li><i class="fas fa-university"></i> equal contribution<sup>*</sup></li>
-                        </ul> -->
                     </div>
                     </div>
                     <div class="excerpt w3-padding-16" style="width: 80%; max-width: 700px; margin: auto;">
@@ -101,8 +97,7 @@
         <!-- Narrow screen -->
         <header class="hd-container w3-container hide-wide">
             <div class="w3-row-padding w3-center w3-padding-24">
-                <span class="title">Hi Robot: Open-Ended Instruction Following with Hierarchical</span>
-                <span class="title">Vision-Language-Action Models</span>
+                <span class="title">Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models</span>
             </div>
             <div class="w3-row-padding">
                 <!-- Author -->
@@ -110,28 +105,29 @@
                     <ul class="horizontal-list">
                         <li><i class="far fa-user"></i> Anonymous Authors</li>
                     </ul>
-                    <!-- <ul class="horizontal-list">
-                        <li><i class="fas fa-university"></i> Stanford University</li>
                 </div>
-
+        
             </div>
-            <div class="w3-row-padding"><hr></div>
-                <div class="w3-row-padding w3-padding-16">
-                    <div class="excerpt">
-                        While imitation learning methods have seen a resurgent interest for robotic manipulation, the well-known problem of
-                        <i>compounding errors</i> continues to afflict behavioral cloning (BC). Waypoints can help address this problem by reducing the
-                        horizon of the learning problem for BC, and thus, the errors compounded over time. However, waypoint labeling is
-                        underspecified, and requires additional human supervision. Can we generate waypoints automatically without any
-                        additional human supervision? Our key insight is that if a trajectory segment can be approximated by linear motion, the
-                        endpoints can be used as waypoints. We propose <i>Automatic Waypoint Extraction</i> (AWE) for imitation learning, a
-                        preprocessing module to decompose a demonstration into a minimal set of waypoints which when interpolated linearly can
-                        approximate the trajectory up to a specified error threshold. AWE can be combined with any BC algorithm, and we find
-                        that AWE can increase the success rate of state-of-the-art algorithms by up to 25% in simulation and by 4-28% on
-                        real-world bimanual manipulation tasks, reducing the decision making horizon by up to a factor of 10.
-                    </div>
+            <div class="w3-row-padding">
+                <hr>
+            </div>
+            <div class="w3-row-padding w3-padding-16">
+                <div class="excerpt">
+                    Generalist robots that can perform a range of different tasks in open-world settings must be able to not only reason
+                    about the steps needed to accomplish their goals, but also process complex instructions, prompts, and even feedback
+                    during task execution. Intricate instructions (e.g., "Could you make me a vegetarian sandwich?" or "I don't like that
+                    one") require not just the ability to physically perform the individual steps, but the ability to situate complex
+                    commands and feedback in the physical world. In this work, we describe a system that uses vision-language models in a
+                    hierarchical structure, first reasoning over complex prompts and user feedback to deduce the most appropriate next step
+                    to fulfill the task, and then performing that step with low-level actions. In contrast to direct instruction following
+                    methods that can fulfill simple commands ("pick up the cup"), our system can reason through complex prompts and
+                    incorporate situated feedback during task execution ("that's not trash").
+                    We evaluate our system across three robotic platforms, including single-arm, dual-arm, and dual-arm mobile robots,
+                    demonstrating its ability to handle tasks such as cleaning messy tables, making sandwiches, and grocery shopping.
+                </div>
             </div>
         </header>
-
+        
         <!-- Main Body -->
         <div class="main-body">
             <div class="w3-container">
@@ -140,8 +136,13 @@
                     <div class="link-container">
                         <ul class="horizontal-list">
                             <!-- replace later -->
-                            <li><button class="w3-button waves-effect waves-light w3-card-4 grey lighten-2 w3-round-large"><i class="fas fa-file-alt"></i> <a href="https://anoncorl175.github.io/awe-imitation-learning" target="_blank"> Paper </a></button></li>
-                            <li><button class="w3-button waves-effect waves-light w3-card-4 grey lighten-2 w3-round-large"><i class="fas fa-code"></i> <a href="https://anoncorl175.github.io/awe-imitation-learning" target="_blank"> Code </a></button></li>
+                            <li><button class="w3-button waves-effect waves-light w3-card-4 grey lighten-2 w3-round-large"><i
+                                        class="fas fa-file-alt"></i> <a
+                                        href="" target="_blank"> Paper
+                                    </a></button></li>
+                            <li><button class="w3-button waves-effect waves-light w3-card-4 grey lighten-2 w3-round-large"><i
+                                        class="fas fa-code"></i> <a href=""
+                                        target="_blank"> Code </a></button></li>
                         </ul>
                     </div>
                     <!-- Markdown Body -->
@@ -149,16 +150,13 @@
                 </div>
             </div>
         </div>
-
+        
         <!-- Footer -->
-        <!-- <footer class="w3-center w3-light-grey w3-padding-32 w3-small">
+        <footer class="w3-center w3-light-grey w3-padding-32 w3-small">
             <p style="color: grey">
-                The website template is borrowed from <a href="https://clvrai.github.io/skill-chaining/">here.</a>  <br/>
-                We would like to thank Suneel Belkhale and Chen Wang for helpful discussions, and all members of the IRIS lab for
-                constructive feedback. <br />
-                &copy; Copyright 2023, IRIS Lab, Stanford University.
             </p>
-        </footer> -->
-
-    </body>
-</html>
+        </footer>
+        
+        </body>
+        
+        </html>
