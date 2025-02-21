@@ -1,7 +1,7 @@
 
 ----
 
-### Motivation
+## Motivation
 
 When was the last time you cooked a new dish? You look at the recipe, lay out the ingredients, and get to work. There is a little voice inside your head &mdash; "oh I forgot, I need to add the tomato." You think carefully through each step, periodically checking the recipe. Maybe your friend chimes in &mdash; "watch out, you'll burn it." Daniel Kahneman described two different ways that people solve problems, which he dubbed "System 1" and "System 2." System 1 feels instinctual and automatic; System 2 is deliberative and conscious. Cooking that new dish used System 2: that's the little voice you heard in your head. When you do something for the 100th time, that's System 1: it feels automatic and you hardly think about it.
 
@@ -12,7 +12,7 @@ Can we get our robots to "think" the same way, with a little "voice" that tells 
 <video width="100%" controls autoplay loop muted>
     <source src="./video/blog_video1_compressed.mp4" type="video/mp4">
 </video>
-<figcaption class="imgcaption" style="margin-top: 5px;">An example of our System 2 model breaking up a complex user prompt into simpler steps, which are then fed to a System 1 model to perform the task.</figcaption>
+<figcaption class="imgcaption" style="margin-top: 0px;">An example of our System 2 model breaking up a complex user prompt into simpler steps, which are then fed to a System 1 model to perform the task.</figcaption>
 
 <br>
 
@@ -23,7 +23,7 @@ This high-level policy is itself a VLM, and it is trained to process complex pro
 <video width="100%" controls autoplay loop muted>
     <source src="./video/blog_video2_compressed.mp4" type="video/mp4">
 </video>
-<figcaption class="imgcaption">Hi Robot responds to real-time language instructions, inferring the user's intent and situating it in the current scene.</figcaption>
+<figcaption class="imgcaption" style="margin-top: 0px;">Hi Robot responds to real-time language instructions, inferring the user's intent and situating it in the current scene.</figcaption>
 
 <br>
 
@@ -43,19 +43,19 @@ Inspecting the internal "thoughts" of **Hi Robot** when presented with a complex
 
 <div style="display: flex; gap: 20px; margin-bottom: 20px;">
     <div style="flex: 1;">
-        <figcaption class="imgcaption"></figcaption>
+        <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
         <video width="100%" controls autoplay loop muted>
             <source src="./video/blog_post_video3_clean_everything_compressed.mp4" type="video/mp4">
         </video>
     </div>
     <div style="flex: 1;">
-        <figcaption class="imgcaption"></figcaption>
+        <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
         <video width="100%" controls autoplay loop muted>
             <source src="./video/blog_post_video3_only_trash_compressed.mp4" type="video/mp4">
         </video>
     </div>
 </div>
-<figcaption class="imgcaption">Hi Robot follows a complex prompt that requires modifying the behavior of the base model, which is trained to bus the table by putting all trash in the garbage and all dishes in the bin.</figcaption>
+<figcaption class="imgcaption" style="margin-top: 0px;">Hi Robot follows a complex prompt that requires modifying the behavior of the base model, which is trained to bus the table by putting all trash in the garbage and all dishes in the bin.</figcaption>
 
 <br>
 
@@ -69,7 +69,7 @@ Interpreting a contextual comment from a user is a similar problem to interpreti
 <video width="100%" controls autoplay loop muted>
     <source src="./video/blog_video4_compressed.mp4" type="video/mp4">
 </video>
-<figcaption class="imgcaption">Hi Robot incorporates corrections and feedback from the user.</figcaption>
+<figcaption class="imgcaption" style="margin-top: 0px;">Hi Robot incorporates corrections and feedback from the user.</figcaption>
 
 <br>
 
