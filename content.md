@@ -32,6 +32,9 @@ This high-level policy is itself a VLM, and it is trained to process complex pro
 
 If both the high-level **Hi Robot** policy and the low-level VLA model are based on the same VLM, why is this hierarchical inference process actually advantageous? Just like language models have been shown to excel at complex problem-solving tasks if they are allowed to generate extra text to "think", **Hi Robot** can better process complex prompts and feedback if it is allowed to first break them up into simpler steps that the VLA model already understands how to do. There is also another more technical reason why this inference process is advantageous: the web-scale pre-training that we use to initialize VLMs trains the model to generate textual answers to prompts and questions that reference images and textual context. That means that, out of the box, such models are already quite proficient at responding to questions like, "in this picture, which object should the robot grasp next to clean the table?" **Hi Robot** is therefore able to better inherit the knowledge that the VLM builds up during web-scale pre-training. This is not so different from how you think: when you cooked that new recipe, you might have been thinking about things you learned from the recipe book, or from something your friend told you, or even something you saw in a cooking show &mdash; all knowledge that you gained from other sources besides your own personal embodied experience.
 
+<br>
+
+----
 ### Robots that talk to themselves
 
 Inspecting the internal "thoughts" of **Hi Robot** when presented with a complex prompt, we can see how our system reasons through an intricate task defined by a user prompt.
