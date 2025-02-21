@@ -68,7 +68,7 @@ Inspecting the internal "thoughts" of **Hi Robot** when presented with a complex
 <br>
 
 
-In this case, the low-level policy is trained to simply clean the table, putting all trash in the garbage and all dishes in the bin. Left to its own devices, the low-level policy would simply perform this task -- you've probably had the experience of doing something on "autopilot," where you find yourself performing a well-practiced task even as you forget what you were actually trying to do. But under the control of **Hi Robot**, the low-level policy can be adapted to follow this more intricate prompt, following the user's command as **Hi Robot** reasons through the modified commands that it should provide to the low-level policy. Since these commands are produced in natural language, we can inspect them and see how the robot "talks to itself" to perform the task.
+In this case, the low-level VLA is trained to simply clean the table, putting all trash in the garbage and all dishes in the bin. Left to its own devices, the low-level VLA would simply perform this task -- you've probably had the experience of doing something on "autopilot," where you find yourself performing a well-practiced task even as you forget what you were actually trying to do. But under the control of **Hi Robot**, the low-level VLA can be adapted to follow this more intricate prompt, following the user's command as **Hi Robot** reasons through the modified commands that it should provide to the low-level VLA. Since these commands are produced in natural language, we can inspect them and see how the robot "talks to itself" to perform the task.
 
 <br>
 
