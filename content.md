@@ -21,7 +21,7 @@ This high-level policy is itself a VLM, and it is trained to process complex pro
 <br>
 
 <video width="100%" controls autoplay loop muted>
-    <source src="./video/blog_video2_compressed.mp4" type="video/mp4">
+    <source src="./video/blog_video2_v2_ann.mp4" type="video/mp4">
 </video>
 <figcaption class="imgcaption" style="margin-top: 0px;">Hi Robot responds to real-time language instructions, inferring the user's intent and situating it in the current scene.</figcaption>
 
@@ -51,7 +51,7 @@ Inspecting the internal "thoughts" of **Hi Robot** when presented with a complex
     <div style="flex: 1;">
         <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
         <video width="100%" controls autoplay loop muted>
-            <source src="./video/blog_post_video3_only_trash_compressed.mp4" type="video/mp4">
+            <source src="./video/blog_post_video3_only_trash_ann.mp4" type="video/mp4">
         </video>
     </div>
 </div>
@@ -67,7 +67,7 @@ Interpreting a contextual comment from a user is a similar problem to interpreti
 <br>
 
 <video width="100%" controls autoplay loop muted>
-    <source src="./video/blog_video4_compressed.mp4" type="video/mp4">
+    <source src="./video/blog_video4_v2_ann.mp4" type="video/mp4">
 </video>
 <figcaption class="imgcaption" style="margin-top: 0px;">Hi Robot incorporates corrections and feedback from the user.</figcaption>
 
