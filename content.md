@@ -32,7 +32,7 @@ This high-level policy is itself a VLM, and it is trained to process complex pro
 
 <figure style="margin: 0; padding: 0;">
     <video width="100%" controls autoplay loop muted>
-        <source src="./video/blog_video2_v2_ann.mp4" type="video/mp4">
+        <source src="./video/video2.mp4" type="video/mp4">
     </video>
     <figcaption class="imgcaption" style="margin-top: -10px;">Hi Robot responds to real-time language instructions, inferring the user's intent and situating it in the current scene.</figcaption>
 </figure>
@@ -58,13 +58,13 @@ Inspecting the internal "thoughts" of **Hi Robot** when presented with a complex
         <div style="flex: 1;">
             <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
             <video width="100%" controls autoplay loop muted>
-                <source src="./video/blog_post_video3_clean_everything_compressed.mp4" type="video/mp4">
+                <source src="./video/video3_left.mp4" type="video/mp4">
             </video>
         </div>
         <div style="flex: 1;">
             <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
             <video width="100%" controls autoplay loop muted>
-                <source src="./video/blog_post_video3_only_trash_ann.mp4" type="video/mp4">
+                <source src="./video/video3_right.mp4" type="video/mp4">
             </video>
         </div>
     </div>
@@ -84,7 +84,7 @@ Interpreting a contextual comment from a user is a similar problem to interpreti
 
 <figure style="margin: 0; padding: 0;">
   <video width="100%" controls autoplay loop muted>
-    <source src="./video/blog_video4_v2_ann.mp4" type="video/mp4">
+    <source src="./video/video4.mp4" type="video/mp4">
   </video>
   <figcaption class="imgcaption" style="margin-top: 0;">Hi Robot incorporates corrections and feedback from the user.</figcaption>
 </figure>
