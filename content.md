@@ -12,10 +12,10 @@ Can we get our robots to "think" the same way, with a little "voice" that tells 
 <br>
 
 <figure style="margin: 0; padding: 0;">
-    <video width="100%" controls autoplay loop muted style="margin-bottom: 20px;">
+    <video width="100%" controls autoplay loop muted style="margin-bottom: 25px;">
         <source src="./video/video1_1.mp4" type="video/mp4">
     </video>
-    <video width="100%" controls autoplay loop muted style="margin-bottom: 20px;">
+    <video width="100%" controls autoplay loop muted style="margin-bottom: 25px;">
         <source src="./video/video1_2.mp4" type="video/mp4">
     </video>
     <video width="100%" controls autoplay loop muted>
@@ -64,7 +64,7 @@ Inspecting the internal "thoughts" of **Hi Robot** when presented with a complex
         <div style="flex: 1;">
             <figcaption class="imgcaption" style="margin-top: 0px;"></figcaption>
             <video width="100%" controls autoplay loop muted>
-                <source src="./video/video3_right.mp4" type="video/mp4">
+                <source src="./video/video3_right_2.mp4" type="video/mp4">
             </video>
         </div>
     </div>
@@ -84,7 +84,7 @@ Interpreting a contextual comment from a user is a similar problem to interpreti
 
 <figure style="margin: 0; padding: 0;">
   <video width="100%" controls autoplay loop muted>
-    <source src="./video/video4.mp4" type="video/mp4">
+    <source src="./video/video4_2.mp4" type="video/mp4">
   </video>
   <figcaption class="imgcaption" style="margin-top: 0;">Hi Robot incorporates corrections and feedback from the user.</figcaption>
 </figure>
