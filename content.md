@@ -12,10 +12,10 @@ Can we get our robots to "think" the same way, with a little "voice" that tells 
 <br>
 
 <figure style="margin: 0; padding: 0;">
-    <video width="100%" controls autoplay loop muted>
+    <video width="100%" controls autoplay loop muted style="margin-bottom: 20px;">
         <source src="./video/video1_1.mp4" type="video/mp4">
     </video>
-    <video width="100%" controls autoplay loop muted>
+    <video width="100%" controls autoplay loop muted style="margin-bottom: 20px;">
         <source src="./video/video1_2.mp4" type="video/mp4">
     </video>
     <video width="100%" controls autoplay loop muted>
