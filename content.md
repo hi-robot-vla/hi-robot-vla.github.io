@@ -13,7 +13,13 @@ Can we get our robots to "think" the same way, with a little "voice" that tells 
 
 <figure style="margin: 0; padding: 0;">
     <video width="100%" controls autoplay loop muted>
-        <source src="./video/blog_video1_compressed.mp4" type="video/mp4">
+        <source src="./video/video1_1.mp4" type="video/mp4">
+    </video>
+    <video width="100%" controls autoplay loop muted>
+        <source src="./video/video1_2.mp4" type="video/mp4">
+    </video>
+    <video width="100%" controls autoplay loop muted>
+        <source src="./video/video1_3.mp4" type="video/mp4">
     </video>
     <figcaption class="imgcaption" style="margin-top: -10px;">An example of our System 2 model breaking up a complex user prompt into simpler steps, which are then fed to a System 1 model to perform the task.</figcaption>
 </figure>
